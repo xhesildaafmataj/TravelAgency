@@ -1,0 +1,462 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    background-image: url(../media/images/headerbackgroundcroped.webp);
+    background-position: center center;
+    background-size: cover;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+.logoContact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logoDiv {
+
+    display: flex;
+    align-items: center;
+}
+
+.logoimg {
+    width: 70px;
+}
+
+.logoimg>img {
+    width: 100%;
+}
+
+.logotext>h2 {
+    margin: 1px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.headerContact {}
+
+.headerContactUl {
+    display: flex;
+
+}
+
+.headerContactUl>li {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.iconContact {}
+
+.iconContact>svg {
+    width: 30px;
+    height: 30px;
+    fill: #ffffff;
+}
+
+.headerContactInfo>p:first-child {
+    color: white;
+    font-weight: 400;
+    margin: 2px;
+}
+
+.headerContactInfo>p:last-child {
+    color: #ffffff88;
+    margin: 2px;
+}
+
+/* mbaron logo dhe header contact */
+/* fillon navbar */
+nav {
+    border-top: 2px solid #ffffff44;
+    margin-top: 15px;
+    position: relative;
+    height: 40px;
+}
+
+.navul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    text-align: center;
+    justify-content: space-between;
+    padding-inline-start: 0px;
+    position: absolute;
+    top: -19px;
+}
+
+.navli {
+    padding: 20px 32px;
+}
+
+.navli:first-child {
+    border-top: 4px solid #0078ff;
+}
+
+.navli>a {
+    color: #fff;
+    /* padding: 8px 36px; */
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.navli:first-child>a {
+    text-align: left;
+}
+
+
+
+.navspace {
+    width: 2px;
+    height: 25px;
+    background-color: #ffffff44;
+    border-radius: 3px;
+}
+
+/* mbaron navbar */
+/* fillon hero */
+.hero {
+    padding: 140px 0;
+    display: grid;
+    place-items: center;
+}
+
+/* .innerHero>h1,
+.innerHero>h3
+.innerHero>h3
+.innerHero>h3
+.innerHero>h3
+.innerHero>h3 {
+    color: white;
+
+} */
+.innerHero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.innerHero:has(h1, h3) {
+    color: white;
+    text-transform: uppercase;
+}
+
+.innerHero>button {
+    background-color: #fff;
+    color: #0078ff;
+    padding: 15px 40px;
+    border: none;
+    text-transform: uppercase;
+
+    border-radius: 100px;
+}
+
+/* fillon sission */
+section {
+    padding: 100px 0;
+}
+
+/*mbaron session */
+/* fillon why choose us */
+.whyUs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.horizontalServices {
+    width: 90%;
+    background-color: #fff;
+    border-radius: 5px;
+    position: absolute;
+    top: -190px;
+
+}
+
+.serviceUl {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    align-items: center;
+    padding-inline-start: 0px;
+
+}
+
+.serviceLi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 200ms ease-in-out;
+    padding: 20px;
+}
+
+.arrow {
+    display: none;
+}
+
+.serviceLi:hover {
+    background-color: #0078ff;
+    color: #fff;
+    scale: 1.3;
+    border-radius: 5px;
+    fill: #fff;
+}
+
+.iconContainer>svg {
+    fill: #bbbbbb;
+    width: 40px;
+    height: 40px;
+
+}
+
+.serviceP {
+    font-weight: 600;
+    /* color: #04132a; */
+    color: #082551;
+}
+
+.serviceDevider {
+    width: 2px;
+    height: 50px;
+    background-color: #bbbbbb;
+}
+
+.reasons {
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.reasonImg {
+    position: relative;
+    width: 40%;
+    top: -50px;
+}
+
+.reasonImg>img {
+    position: absolute;
+    width: 100%;
+
+}
+
+.reasonImg>img:first-child {
+    top: 50px;
+    left: -50px;
+
+}
+
+.reasonImg>img:nth-child(2) {
+    top: 0px;
+    left: 0px;
+}
+
+.reasonImg>img:last-child {
+    top: 50px;
+    left: 50px;
+}
+
+
+.reasontext {
+    width: 50%;
+    position: relative;
+    top: 50px;
+}
+
+.primarytext {}
+
+.secoderytext {}
+
+
+
+
+
+
+/* mbaron why choose us */
+/* fillon who are we */
+#nr2 {
+    background-color: #bbbbbb;
+}
+
+.weare {
+    display: flex;
+}
+
+.weare p {
+    color: #888888;
+}
+
+.wetext {
+    width: 40%;
+}
+
+.wetext>h1 {
+    color: #082551;
+}
+
+.weCard {
+    width: 35%;
+}
+
+.cardImg {
+    width: 100%;
+    height: 175px;
+    overflow: hidden;
+}
+
+.cardImg>img {
+    width: 100%;
+}
+
+.cardTitle {
+    color: #082551;
+}
+
+.cardLink {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #0078ff;
+    border: none;
+}
+
+.cardLink>svg {
+
+    fill: #fff;
+}
+
+/* mbaron who are we */
+
+
+/* fillon extended services */
+#nr3 {
+    background-color: #082551;
+}
+
+
+.extended {
+    display: grid;
+    gap: 35px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.extended * {
+    color: #bbbbbb;
+}
+
+.firstcard {}
+
+.exServCard {
+    width: 100%;
+    border: 2px solid white;
+
+}
+
+.exServIcon {
+    width: 50px;
+    height: 50px;
+    background-color: #082551;
+    position: relative;
+    top: -20px;
+    left: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.exTitle {
+    color: #eeeeee;
+}
+
+/* mbaron extended services */
+
+/* ketu fillon footer */
+footer {
+    background-color: #04132a;
+    padding: 100px 0 100px 0;
+}
+
+.innerFooter {
+    display: flex;
+    width: 100%;
+    color: #eeeeee;
+}
+
+.innerFooter a {
+    text-decoration: none;
+    color: #eeeeee;
+}
+
+.footerSec1,
+.footerSec4 {
+    width: 30%;
+    padding: 5px;
+}
+
+.footerSec2,
+.footerSec3 {
+    width: 20%;
+    padding: 5px;
+}
+
+.footerSocialIcons {
+    display: flex;
+}
+
+.footerSocialIcon {
+    width: 40px;
+    height: 40px;
+    display: grid;
+    place-items: center;
+    border: 1px solid #eeeeee30;
+
+}
+
+.footerSec2 nav,
+.footerSec3 nav {
+    margin-top: 0px;
+    border: none;
+
+}
+
+.footerNavul {}
+
+.footerNavli {}
+
+.newsForm {
+    background-color: #fff;
+    display: flex;
+}
+
+.newsForm>input {
+    width: 80%;
+}
+
+.newsForm>input:focus {
+    outline: none;
+}
+
+.newsForm>button {
+    width: 20%;
+    border: none;
+    cursor: pointer;
+    background-color: #0078ff;
+}
+
+/* ketu mbaron footer */
